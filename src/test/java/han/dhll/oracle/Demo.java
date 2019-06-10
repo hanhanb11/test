@@ -50,7 +50,6 @@ public class Demo {
         //给参数赋值
         pstm.setObject(1,7788);
         pstm.registerOutParameter(2, OracleTypes.NUMBER);
-
         //执行sql
        pstm.execute();
         //输出结果
@@ -59,7 +58,6 @@ public class Demo {
             pstm.close();
             connection.close();
         }
-
     /**
      * 测试存储过程
      *   {?= call <procedure-name>[(<arg1>,<arg2>, ...)]}
