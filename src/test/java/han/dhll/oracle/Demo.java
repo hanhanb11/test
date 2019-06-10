@@ -103,9 +103,10 @@ public class Demo {
 
 
 
-
+    @Test
     public void test3(){
 
+        System.out.println("hai");
     }
 
 
