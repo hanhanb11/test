@@ -60,18 +60,6 @@ public class Demo {
             connection.close();
         }
 
-
-
-
-
-
-
-
-
-
-
-
-
     /**
      * 测试存储过程
      *   {?= call <procedure-name>[(<arg1>,<arg2>, ...)]}
